@@ -1,0 +1,60 @@
+// ------------------------------------------------
+// Modal Login Registro
+// ------------------------------------------------
+
+.loginForm {
+  padding : 8px 8px 0;
+  .form-group {
+    margin-bottom : 2px;
+    label {
+      margin  : 0;
+      padding : 0;
+    }
+  }
+  .igree {
+    font-size : 11px;
+  }
+  .registro {
+    background  : #f57723;
+    border      : 0;
+    color       : #fff;
+    font-weight : 700;
+    padding     : 10px;
+    width       : 100%;
+    &:hover {
+      background : #dc2930;
+    }
+  }
+  .btn-facebook {
+    background  : #3866b0;
+    border      : 0;
+    color       : #fff;
+    font-weight : 700;
+    margin      : 5px 0;
+    padding     : 10px;
+    width       : 100%;
+    &:hover {
+      background : #427dd1;
+    }
+  }
+  .btn-twitter {
+    background  : #23d1f5;
+    border      : 0;
+    color       : #fff;
+    font-weight : 700;
+    margin      : 5px 0;
+    padding     : 10px;
+    width       : 100%;
+    &:hover {
+      background : #5cebff;
+    }
+  }
+  .link {
+    font-size  : 12px;
+    text-align : center;
+    a{
+      color : #000;
+    }
+  }
+}
+

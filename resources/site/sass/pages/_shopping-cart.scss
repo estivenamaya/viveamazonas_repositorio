@@ -1,0 +1,132 @@
+// ------------------------------------------------
+//  PRODUCTO DETALLE
+// ------------------------------------------------
+
+.shopping-cart {
+
+}
+.td-cell {
+  display        : table-cell;
+  float          : none;
+  vertical-align : middle;
+}
+.shop-table {
+  overflow : hidden;
+  .td-head {
+    background    : #f6f6f6;
+    border        : 1px solid #ebebeb;
+    margin-bottom : 5px;
+    padding       : 10px 0;
+    span {
+      display : block;
+    }
+    .title {
+      font-size   : 16px;
+      font-weight : 700;
+      @include ellipsis();
+    }
+    .title1 {
+      font-size    : 16px;
+      font-weight  : 700;
+      padding-left : 15px;
+      @include ellipsis();
+    }
+  }
+  .td-body {
+    .item {
+      border   : 1px solid #ebebeb;
+      display  : table;
+      margin   : 0 0 5px;
+      padding  : 20px 10px;
+      position : relative;
+      width    : 100%;
+      .deleted {
+        background : #555;
+        position   : absolute;
+        right      : 0;
+        top        : 0;
+        z-index    : 1;
+        &.deleted:hover {
+          background : #000;
+        }
+        a {
+          color   : #fff;
+          display : block;
+          padding : 2px 5px;
+        }
+      }
+      figure {
+        padding : 6px;
+      }
+      .info {
+        color     : #666;
+        font-size : 12px;
+        h2 {
+          border-bottom : 1px solid #ebebeb;
+          font-size     : 15px;
+          font-weight   : 700;
+          margin        : 0 0 10px;
+          padding       : 0 0 10px;
+          a {
+            color : #000;
+          }
+        }
+      }
+      span {
+        display : block;
+      }
+      .price1 {
+        font-size : 16px;
+      }
+      .price2 {
+        color     : $main_color;
+        font-size : 18px;
+      }
+    }
+  }
+}
+.td-footer {
+  border-top : 1px solid #ebebeb;
+  display    : table;
+  font-size  : 16px;
+  padding    : 20px 0;
+  width      : 100%;
+  .bt-line {
+    border-bottom : 1px solid #ebebeb;
+  }
+  .tb1 {
+    display     : block;
+    font-weight : 700;
+    line-height : 40px;
+    text-align  : left;
+  }
+  .price1 {
+    color       : #666;
+    display     : block;
+    font-size   : 22px;
+    line-height : 40px;
+    padding     : 0 10px;
+    text-align  : right;
+  }
+  .tb2 {
+    display     : block;
+    font-size   : 28px;
+    font-weight : 700;
+    line-height : 50px;
+    text-align  : left;
+  }
+  .price2 {
+    color       : #000;
+    display     : block;
+    font-size   : 28px;
+    font-weight : 700;
+    line-height : 50px;
+    padding     : 0 10px;
+    text-align  : right;
+  }
+}
+.td-action {
+  border-top : 3px solid #ebebeb;
+  padding    : 40px 5px;
+}
+

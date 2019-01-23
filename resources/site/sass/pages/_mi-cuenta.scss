@@ -1,0 +1,20 @@
+// ------------------------------------------------
+//  DATOS DE MI CUENTA
+// -----------------------------------------------
+
+.mi-cuenta {
+  .head {
+    border-bottom : 1px solid #dcdcdc;
+    height        : 11px;
+    margin        : 20px 0;
+    h5 {
+      background  : #fff;
+      color       : $main_color;
+      display     : inline-block;
+      font-weight : 700;
+      margin      : 0;
+      padding     : 0 10px 0 0;
+    }
+  }
+}
+

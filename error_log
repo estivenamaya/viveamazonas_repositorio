@@ -1,0 +1,2 @@
+[22-Aug-2018 16:49:44 America/Bogota] PHP Fatal error:  Call to undefined function responder() in /home/viveamazonas/public_html/application/controllers/main.php on line 70
+[22-Aug-2018 16:51:37 America/Bogota] PHP Fatal error:  Call to undefined function parse() in /home/viveamazonas/public_html/application/controllers/main.php on line 70

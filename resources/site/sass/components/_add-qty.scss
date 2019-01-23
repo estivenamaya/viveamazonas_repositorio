@@ -1,0 +1,39 @@
+
+.sp-quantity {
+  border      : 1px solid #e1e1e1;
+  display     : inline-block;
+  height      : 42px;
+  line-height : 32px;
+  overflow    : hidden;
+  .sp-minus, .sp-plus {
+    float      : left;
+    height     : 42px;
+    text-align : center;
+    width      : 32px;
+  }
+  .sp-minus {
+    border-right : 1px solid #e1e1e1;
+  }
+  .sp-plus {
+    border-left : 1px solid #e1e1e1;
+  }
+  .sp-input {
+    float : left;
+    input {
+      border      : none;
+      box-shadow  : none;
+      font-weight : 700;
+      line-height : 42px;
+      text-align  : center;
+      width       : 40px;
+    }
+  }
+  .sp-minus a, .sp-plus a {
+    display         : block;
+    font-weight     : 700;
+    height          : 100%;
+    padding-top     : 5px;
+    text-decoration : none;
+    width           : 100%;
+  }
+}

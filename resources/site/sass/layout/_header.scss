@@ -1,0 +1,40 @@
+// ------------------------------------------------
+//  Header
+// ------------------------------------------------
+
+.abs-post-home {
+  position : absolute;
+  width    : 100%;
+  z-index  : 2;
+}
+.abs-post-inner {
+  position : relative;
+  background : url('../images/bg-top.jpg') 0 0 no-repeat;
+  width    : 100%;
+  z-index  : 2;
+}
+#bar-top {
+  position : relative;
+  z-index  : 4;
+}
+header {
+  background : #fff;
+  position   : relative;
+  z-index    : 3;
+}
+.area-header {
+  .logo {
+    padding : 10px 0;
+  }
+}
+.topMenu {
+  padding : 25px 0;
+}
+.roundtop {
+  background : url('../images/round-top.png') center 0 no-repeat;
+  height     : 39px;
+  margin     : -39px auto auto;
+  position   : relative;
+  width      : 339px;
+  z-index    : 1;
+}

@@ -1,0 +1,96 @@
+// ------------------------------------------------
+//  CHECKOUT
+// -----------------------------------------------
+
+.area-checkout {
+  .form-group {
+    margin-bottom : 4px;
+    label {
+      margin  : 0;
+      padding : 0;
+    }
+  }
+  .price-shipping {
+    font-size : 18px;
+  }
+
+  .credit-card {
+    height : 100%;
+    .title-spc {
+      border-bottom : 1px solid #ebebeb;
+      height        : 21px;
+      margin        : 10px 0 30px;
+      h5 {
+        background  : #fff;
+        color       : #f16c75;
+        display     : inline-block;
+        font-size   : 12px;
+        font-weight : 600;
+        padding     : 0 12px 0 0;
+      }
+    }
+  }
+
+}
+// ------------------------------------------------
+//  Check Out Mod
+// ------------------------------------------------
+
+.checkout-mod {
+  margin  : 0;
+  padding : 0;
+  li {
+    border-bottom : 1px solid #e5e5e5;
+    list-style    : none;
+    padding       : 16px 0;
+    &.sub-total {
+      border-top : 3px solid #e5e5e5;
+    }
+    &:last-child {
+      border-bottom : 0;
+    }
+    h4 {
+      font-size   : 14px;
+      font-weight : 700;
+      line-height : 12px;
+      margin      : 0;
+      padding     : 0;
+      a {
+        color : #000;
+      }
+    }
+    p {
+      font-size : 12px;
+      margin    : 0;
+      padding   : 0;
+    }
+    .price {
+      color       : $main_color;
+      font-size   : 18px;
+      font-weight : 700;
+    }
+  }
+}
+/* line 79, ../sass/partials/_utils.sass */
+.valid legend::after {
+  color        : #11913b;
+  content      : "Valid";
+  font-size    : 0.7em;
+  padding-left : 1em;
+}
+/* line 81, ../sass/partials/_utils.sass */
+.valid legend:after {
+  color        : #11913b;
+  content      : "Valid";
+  font-size    : 0.7em;
+  padding-left : 1em;
+}
+/* line 83, ../sass/partials/_utils.sass */
+.valid legend > iea {
+  color        : #11913b;
+  content      : "Valid";
+  font-size    : 0.7em;
+  padding-left : 1em;
+}
+
+

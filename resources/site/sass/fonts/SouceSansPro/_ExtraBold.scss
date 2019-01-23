@@ -1,0 +1,8 @@
+/* BEGIN Extrabold */
+@font-face {
+  font-family: $fontName;
+  @include fontdef($fontPath, $fontVersion, "ExtraBold");
+  font-weight: 800;
+  font-style: normal;
+}
+/* END Extrabold */

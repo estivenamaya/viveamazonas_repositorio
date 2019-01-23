@@ -1,0 +1,47 @@
+// Skins
+@import "skins/colors";
+//Helpers
+@import "helpers/mixins";
+@import "helpers/variables";
+
+// Vendors
+@import "vendors/bootstrap"; /* Bootstrap framework */
+
+// Components
+@import "components/slider";            /* Revolution Slide */
+@import "components/owl-carousel";      /* Owl-carousel */
+@import "components/theme-form";        /* Custom Check and Radio Buttons */
+@import "components/bs-select";         /* Bootstrap-select v1.8.0 */
+@import "components/parallax";          /* Parallax */
+@import "components/waves";             /* Waves v0.6.0 */
+@import "components/slicknav";          /* Responsive Menu */
+@import "components/drop-menu";         /* Responsive Menu */
+@import "components/drop-shop-menu";    /* Responsive Menu */
+@import "components/add-qty";           /* Add Qty */
+
+//Fonts
+@import "fonts/font-face";  /* Fonts */
+@import "fonts/materialdesignicons";  /* Fonts Icons */
+
+// Base
+@import "base/general"; /* html general */
+
+// Layout
+@import "layout/header";
+@import "layout/breadcrumbs";
+@import "layout/footer";
+@import "layout/redes";
+@import "layout/modal-login-registro";
+
+// Pages
+@import "pages/home";
+@import "pages/categorias";
+@import "pages/detalle-plan";
+@import "pages/checkout";
+@import "pages/mi-cuenta";
+@import "pages/contenidos";
+@import "pages/shopping-cart";
+
+// Mobile
+@import "mobile/responsive";
+@import "mobile/retina";

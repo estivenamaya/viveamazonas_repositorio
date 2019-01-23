@@ -1,0 +1,215 @@
+#metodos-pago img{
+	height: 20px;
+}
+
+#metodos-pago{
+	float: right;
+    padding: 15px 0px;
+}
+
+#metodos-pago ul{
+	padding: 0;
+}
+
+#metodos-pago ul li{
+	list-style: none;
+    text-align: left;
+    padding: 10px 10px;
+    background: #119ac1;
+    border-radius: 5px;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-weight: 600;
+}
+
+#metodos-pago ul li .img-metodos-pago{
+	float: right;
+}
+
+.precio-cesta{
+	padding: 15px 20px 0px 0px !important;
+    font-weight: 600 !important;
+}
+
+.like-actividad{
+	color: #fff;
+    font-size: 40px;
+    float: right;
+}
+
+.like-actividad.like{
+	color: #119ac1;
+}
+
+.like-actividad:hover{
+    cursor: pointer;
+    text-shadow: 1px 1px 2px #9E9E9E;
+}
+
+.position-like{
+    float: left;
+    position: absolute;
+    z-index: 9;
+    margin: 10px 22px;
+    font-size: 50px;
+}
+
+.comentario-area{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 7px;
+    text-align: left;
+}
+
+.calificacion-estrella{
+    margin: 19px 3px;
+    font-size: 20px !important;
+    cursor: pointer;
+}
+
+.calificacion-estrella.check-estrella{
+    color: #f1bc00;
+}
+
+.borrar-comentario{
+    top: 0;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.checkout-modal{
+    position: fixed;
+    width: 550px;
+    height: 350px;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 10px;
+    top: 20%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 9;
+}
+
+.checkout-modal .left-checkout{
+    width: 42%;
+    height: 100%;
+    float: left;
+    background: #fff; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#fff , rgba(57, 76, 169, 0.08)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#fff, rgba(57, 76, 169, 0.08)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#fff, rgba(57, 76, 169, 0.08)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#fff , rgba(57, 76, 169, 0.08)); /* Standard syntax */
+    text-align: center;
+}
+
+.checkout-modal .left-checkout .bag-checkout{
+    width: 55%;
+    margin: 40px 0px 0px 0px;
+}
+
+.checkout-modal .left-checkout .titulo-producto-checkout{
+    font-size: 18px;
+    color: #6b29eb;
+    font-weight: 600;
+    margin: 0;
+    line-height: 16px;
+}
+
+.checkout-modal .left-checkout .precio-producto-checkout{
+    margin: 10px 0;
+    font-size: 30px;
+    color: #f39c12;
+    font-weight: 600;
+}
+
+.checkout-modal .right-checkout{
+    width: 58%;
+    float: right;
+    height: 100%;
+    background: #6f22ef; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#6f22ef , #4380c5); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#6f22ef, #4380c5); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#6f22ef, #4380c5); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#6f22ef , #4380c5); /* Standard syntax */
+    margin: 0;
+    padding: 12px;
+}
+
+.checkout-modal .right-checkout .titulo-checkout{
+    margin: 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.checkout-modal .right-checkout .texto-checkout{
+    margin: 20px 0;
+    color: #fff;
+    font-size: 15px;
+}
+
+.checkout-modal .right-checkout .bottom-right{
+    position: absolute;
+    bottom: 0;
+    width: 54%;
+}
+
+.checkout-modal .right-checkout .bottom-right .btn{
+    width: 100%;
+    margin-bottom: 10px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.checkout-modal .right-checkout .bottom-right .button-close{
+    background: #828282;
+}
+
+.checkout-modal .right-checkout .bottom-right .button-continue{
+    background: rgb(243, 156, 18);
+}
+
+.loading-bar{
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 25%;
+    width: 250px;
+    text-align: center;
+}
+
+.loading-bar p{
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.loading-bar img{
+    opacity: 0.8;
+    border-radius: 50%;
+}
+
+#masthead.navbar-stuck{
+    z-index: 4 !important;
+}
+
+.swatch-red-white{
+    z-index: 1;
+}
+
+.background-popup{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.71);
+  z-index: 9999;
+}

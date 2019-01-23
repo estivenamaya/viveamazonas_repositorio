@@ -1,0 +1,1 @@
+$(window).scroll(function(){$(this).scrollTop()>150?$("#wrapFix").addClass("sticky"):$("#wrapFix").removeClass("sticky")});

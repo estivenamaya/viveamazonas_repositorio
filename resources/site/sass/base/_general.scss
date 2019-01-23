@@ -1,0 +1,68 @@
+// ------------------------------------------------
+//  Dotts Remove
+// ------------------------------------------------
+
+a:focus, a:active,
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+select::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+  border: 0;
+  outline : 0;
+}
+a:active { outline: none !important;}
+a:focus{ -moz-outline-style: none !important;}
+a, a:active, a:focus {
+  outline: none !important;
+}
+
+// ------------------------------------------------
+//  html General
+// ------------------------------------------------
+
+body {
+  background             : #fff;
+  font-family            : 'SourceSansPro', sans-serif;
+  -webkit-font-smoothing : antialiased;
+  text-rendering         : optimizeLegibility;
+}
+figure {
+  margin  : 0;
+  padding : 0;
+}
+// Margin
+
+.auto_margin {
+  margin    : auto;
+  max-width : 1152px;
+}
+.full-width {
+  width : 100%;
+}
+
+// Custom paddings
+
+.nopadding {
+  padding : 0;
+}
+$i : 21;
+@while $i > 0 {
+  .padding_#{$i - 1} {
+    padding-left  : $i - 1px;
+    padding-right : $i - 1px;
+  }
+  $i : $i - 1;
+}
+// Custom heights
+
+$i : 50;
+@while $i > 0 {
+  .height_#{$i} {
+    height  : $i - 5+5px;
+    display : block;
+    clear   : both;
+  }
+  $i : $i - 5;
+}

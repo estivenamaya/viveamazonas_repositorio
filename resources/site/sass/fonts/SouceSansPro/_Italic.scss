@@ -1,0 +1,8 @@
+/* BEGIN Italic */
+@font-face {
+  font-family: $fontName;
+  @include fontdef($fontPath, $fontVersion, "Italic");
+  font-weight: normal;
+  font-style: italic;
+}
+/* END Italic */

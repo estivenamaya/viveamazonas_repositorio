@@ -1,0 +1,213 @@
+// ------------------------------------------------
+//  Detalle dle Plan
+// ------------------------------------------------
+
+.Mod1 {
+  background    : #fff;
+  border        : 1px solid #ffbfd5;
+  border-radius : 5px;
+  box-shadow    : 0 0 4px 0 rgba(174, 173, 173, 0.50);
+  margin-bottom : 20px;
+  article {
+    padding : 20px;
+    h1 {
+      font-weight    : 700;
+      letter-spacing : -1px;
+      margin         : 0 0 16px;
+      padding        : 0;
+    }
+    p {
+      color : #555;
+    }
+  }
+  .price {
+    border-bottom : 1px solid #ffbfd5;
+    margin-bottom : 20px;
+    padding       : 30px 0 10px;
+    .p1 {
+      color          : #e61a60;
+      display        : block;
+      font-size      : 32px;
+      font-weight    : 700;
+      letter-spacing : -2px;
+      line-height    : 26px;
+    }
+  }
+}
+.Mod2 {
+  margin-bottom : 20px;
+  .listOption {
+    .item {
+      background    : #fff;
+      border        : 1px solid #1abe49;
+      border-radius : 5px;
+      box-shadow    : 0 0 4px 0 rgba(174, 173, 173, 0.50);
+      margin-bottom : 10px;
+      padding-left  : 35px;
+      position      : relative;
+      .info {
+        padding : 20px;
+        h4 {
+          font-weight : 700;
+          margin      : 0 0 12px;
+          padding     : 0;
+          strong {
+            color : #1abe49;
+          }
+        }
+        p {
+          color : #666;
+        }
+      }
+      .price {
+        padding    : 30px 20px 10px;
+        text-align : center;
+        .p1 {
+          color          : #e61a60;
+          display        : block;
+          font-size      : 26px;
+          font-weight    : 700;
+          letter-spacing : -2px;
+          line-height    : 26px;
+          margin-bottom  : 6px;
+        }
+        .btn-success {
+          letter-spacing : 0;
+          width          : 100%;
+        }
+      }
+    }
+    .left-bg {
+      background : #1abe49 url('../images/mack.png') center center no-repeat;
+      bottom     : 0;
+      left       : 0;
+      position   : absolute;
+      top        : 0;
+      width      : 35px;
+    }
+  }
+}
+.Mod3 {
+  margin-bottom : 20px;
+}
+.Mod4 {
+  background    : #fff;
+  border        : 1px solid #50c7fe;
+  border-radius : 5px;
+  box-shadow    : 0 0 4px 0 rgba(174, 173, 173, 0.50);
+  margin-bottom : 20px;
+  .head {
+    border-bottom : 1px solid #50c7fe;
+    padding       : 20px 20px;
+    h5 {
+      color       : #000;
+      font-size   : 18px;
+      font-weight : 700;
+      margin      : 0;
+      padding     : 0;
+    }
+  }
+  .list-review {
+    .item {
+      padding : 20px;
+      figure {
+        width : 70px;
+      }
+    }
+  }
+  .media {
+    border-bottom : 1px solid #aae4ff;
+    padding       : 20px;
+    .date {
+      color     : #555;
+      font-size : 12px;
+    }
+    h4 {
+      font-size   : 13px;
+      font-weight : 700;
+    }
+  }
+}
+.plan-shop-pack {
+  background    : #fff;
+  border        : 1px solid #1abe49;
+  border-radius : 5px;
+  box-shadow    : 0 0 4px 0 rgba(174, 173, 173, 0.50);
+  .head {
+    border-bottom : 1px solid #1abe49;
+    h3 {
+      color       : #1abe49;
+      font-size   : 18px;
+      font-weight : 700;
+      margin      : 0;
+      padding     : 12px;
+    }
+  }
+  ul {
+    margin  : 0;
+    padding : 0;
+    ul {
+      margin : 0;
+      li {
+        padding : 0;
+      }
+    }
+    li {
+      border-bottom : 1px solid #e6e6e6;
+      list-style    : none;
+      padding       : 10px;
+      &:last-child {
+        border-bottom : 0;
+      }
+      .dt1 {
+        margin-bottom : 3px;
+        .tt {
+          color       : #e61a60;
+          display     : block;
+          font-size   : 13px;
+          font-weight : 700;
+        }
+        p {
+          font-size   : 13px;
+          line-height : 13px;
+          margin      : 0;
+          padding     : 0;
+        }
+      }
+      .plus {
+        border-left    : 2px solid #d8d8d8;
+        padding-left   : 8px;
+        padding-bottom : 2px;
+      }
+      .dt2 {
+        .tt {
+          color       : #1abe49;
+          display     : block;
+          font-size   : 12px;
+          font-weight : 600;
+          line-height : 13px;
+        }
+        p {
+          font-size   : 12px;
+          line-height : 13px;
+          margin      : 0;
+          padding     : 0;
+        }
+      }
+      .price {
+        font-weight : 600;
+        font-size   : 16px;
+        color       : #e51a60;
+        text-align  : right;
+      }
+    }
+    .total {
+      font-size  : 20px;
+      text-align : right;
+      padding : 10px 0;
+      strong {
+        color : #e51a60;
+      }
+    }
+  }
+}
