@@ -145,7 +145,7 @@
   
 
                                                                 <a class="btn btn-outline-primary" data-toggle="collapse" href="#collapseExample<?= $i ?>" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                                                Ver detalles 
+                                                                VER DETALLES
                                                                 </a> <br> <br>
 
 
