@@ -165,7 +165,7 @@
         <div class="parallax"><img src="<?= base_url() ?>resources/site/images/parallax.jpg"></div>
         <div class="contenidos auto_margin">
                <div>
-                    <h2> Conoce un poco sobre este lugar</h2>
+                    <h2> Conoce un poco sobre este hermoso lugar </h2>
                 <center>
                     <iframe width="700" height="320" src="https://www.youtube.com/embed/r9Nz7n0_zI4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </center>
