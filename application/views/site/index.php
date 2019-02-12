@@ -37,7 +37,7 @@
     <div class="home-list-packs auto_margin">
         <div class="head">
             <h1 style="color:#1E90FF";>EL AMAZONAS TE ESTÁ ESPERANDO</h1></center> 
-            <h3 style="color:#4B0082" > Disfruta de nuestros planes turisticos y vive una experiencia maravillosa </h3></center>
+            <h3 style="color:#4B0082" > Disfruta de nuestros planes turísticos Y vive una experiencia maravillosa </h3></center>
 
          <span class="hr"></span>
 
