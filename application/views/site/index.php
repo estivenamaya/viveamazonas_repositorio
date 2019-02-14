@@ -42,7 +42,7 @@
          <span class="hr"></span>
 
         </div>
-        <H3 font-family= 'fantasy'> LO MAS NUEVO </H3>
+        <H3 font-family= 'fantasy'> LO MÁS NUEVO </H3>
        <div class="body">
 
             <div class="list-packs">
